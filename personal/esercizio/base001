@@ -30,7 +30,7 @@ print(numero)
 
   #creazione di stringhe
 #in questa ultima parte ci sarebbe dovuta essere, come nelle altre la descrizione stampata video ma non so per quale motivo il print mi da problemi nonostante il riaggiornamento della pagina o il tentativo di fare compia incolla del comando 
-a = "stop"
+a = "kill me"
 print(a)
 
 
