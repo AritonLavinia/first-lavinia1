@@ -1,0 +1,37 @@
+# primo programma python 
+#inseriti nomi random di cibo, il codice in prima parte stampera a video i coponenti della stringa 
+
+numero=["pizza","tiramisu","arancino","anguria","pera","tonno","carote"]
+print("primo esempio python verrano stampati prima tutti i componenti dell'array:")
+for y in numero:
+  print(y)
+
+#inizializzata la stringa principale, vengono stampate i componenti della stringa in base a una selezione 
+print("i componenti della stringa precedentemente stampati verranno dimezzati in presenza o meno di determinate parole nella stringa")
+
+for x in numero:
+    print(" il contenuto è stato rimosso") if x=="arancino" else print(x)
+ 
+
+#inizializzata la stringa precedente, vengono stampante i contenuti della stringa fino all arrivo all'ultimo componente che non verra stampato in sto caso:carote
+print(" usando l'ennesima stringa tramite un loop while vengono rimossi tutti i componenti ecceto l'ultimo")
+i=1
+while i < 7:
+  print("il componente è stato rimosso")
+  i += 1
+else:
+  print("l'ultimo componente della stringa non è stato rimosso ")
+  
+  #con uso dell'ennesima stringa  uso funzione pop per eliminare i componenti con inidice pari 
+  print(" elimina i  componenti di indice pari ")
+  numero.pop(2)
+  numero.pop(4)
+print(numero)
+
+  #creazione di stringhe
+#in questa ultima parte ci sarebbe dovuta essere, come nelle altre la descrizione stampata video ma non so per quale motivo il print mi da problemi nonostante il riaggiornamento della pagina o il tentativo di fare compia incolla del comando 
+a = "stop"
+print(a)
+
+
+
