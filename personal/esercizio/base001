@@ -24,7 +24,7 @@ else:
   
   #con uso dell'ennesima stringa  uso funzione pop per eliminare i componenti con inidice pari 
   print(" elimina i  componenti di indice pari ")
-  numero.pop(2)
+  numero.pop(1)
   numero.pop(4)
 print(numero)
 
